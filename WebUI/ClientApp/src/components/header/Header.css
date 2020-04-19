@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1976d2;
+    padding: 0;
+    margin: 0;
+    grid-area: header;
+    box-shadow: 0 0 3px black;
+}
+
+.header * {
+    color: white;
+}

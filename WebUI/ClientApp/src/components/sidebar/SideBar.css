@@ -1,0 +1,30 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.87);
+  height: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li p {
+  margin-left: 1rem;
+}
+
+nav ul li:hover {
+  background-color: #2b2b2b;
+}
+
+nav a {
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 120%;
+  padding: 0.8rem 0 0.8rem 2.5rem;
+  text-align: left;
+  max-height: 4rem;
+  user-select: none;
+  text-decoration: none;
+}

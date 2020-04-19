@@ -1,0 +1,49 @@
+.settings {
+    color: black;
+    margin: auto;
+    width: 900px;
+}
+
+.settings-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.settings-paper {
+    padding: 1rem;
+}
+
+.settings-section h3 {
+    margin-bottom: 0.5rem;
+}
+
+.section-horizontal {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section-item {
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    width: 15rem;
+}
+
+.form-text-field {
+    min-width: 17rem;
+}
+
+.api-key {
+    width: 35.5rem;
+}
+
+.settings-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.settings-controls button {
+    margin-left: 1rem;
+}

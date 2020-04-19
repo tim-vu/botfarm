@@ -1,0 +1,26 @@
+.account-form h2 {
+    margin-bottom: 0.75rem;
+}
+
+.account-form-item {
+    margin-bottom: 1rem;
+}
+
+.account-form-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.account-form-controls button {
+    margin-left: 1rem;
+}
+
+.add-account-modal {
+    position: fixed;
+    width: 600px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

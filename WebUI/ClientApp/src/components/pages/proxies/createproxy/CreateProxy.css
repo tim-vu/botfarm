@@ -1,0 +1,8 @@
+.add-proxy-modal {
+    position: fixed;
+    width: 600px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

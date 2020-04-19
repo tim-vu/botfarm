@@ -1,0 +1,41 @@
+.overview {
+    color: black;
+}
+
+
+
+.page-section h3 {
+    margin-bottom: 0.5rem;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    flex-basis: 1fr;
+    flex-grow: 1;
+}
+
+
+.controls {
+    display: inline-block;
+}
+
+.controls-paper {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.controls-paper button {
+    margin: 0 0.3rem 0 0.3rem;
+}
+
+.mule-table {
+    height: 250px;
+}
